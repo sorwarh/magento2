@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+    <module name="Sorwar_Blog" setup_version="0.1.1">
+        <!-- Module dependecy: in this case Sorwar_Blog depends magento core modules -->
+        <sequence>
+            <module name="Magento_Directory" />
+            <module name="Magento_Config" />
+        </sequence>
+    </module>
+</config>
